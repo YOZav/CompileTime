@@ -1,0 +1,17 @@
+//  
+//  Final15Interactor.swift
+//  Final
+//
+//  Created by 19205313 on 25.05.2021.
+//
+
+import UIKit
+
+final class Final15Interactor {
+    
+}
+
+// MARK: - Final15InteractorProtocol
+extension Final15Interactor: Final15InteractorProtocol {
+    
+}

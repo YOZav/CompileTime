@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Kind</key>
+        <string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+        <key>Platforms</key>
+        <array>
+            <string>com.apple.platform.iphoneos</string>
+        </array>
+        <key>Swift</key>
+        <dict>
+            <key>Nodes</key>
+            <array>
+                <string>ViewController.swift:comments</string>
+                <string>ViewController.swift:imports:importCocoa</string>
+                <string>ViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+                <string>ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+                <string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
+                <string>ViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
+                <string>ViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
+                <string>Constant/CommonExtension.swift</string>
+            </array>
+        </dict>
+        <key>Definitions</key>
+        <dict>
+            <key>Base.lproj/Main.storyboard</key>
+            <dict>
+                <key>Path</key>
+                <string>Main.storyboard</string>
+                <key>SortOrder</key>
+                <integer>99</integer>
+            </dict>
+            <key>Group</key>
+            <array>
+                <string>Singletone</string>
+            </array>
+            <key>Constant/CommonExtension.swift</key>
+            <dict>
+                <key>Path</key>
+                <string>Constant/CommonExtension.swift</string>
+                <key>Group</key>
+                <array>
+                    <string>Constant</string>
+                </array>
+            </dict>
+        </dict>
+        <key>Options</key>
+        <array>
+            <dict>
+                <key>Identifier</key>
+                <string>productName</string>
+                <key>Required</key>
+                <true/>
+                <key>Name</key>
+                <string>Module</string>
+                <key>Description</key>
+                <string>The name of the VIPER module to create</string>
+                <key>Type</key>
+                <string>text</string>
+                <key>Default</key>
+                <string></string>
+            </dict>
+        </array>
+    </dict>
+</plist>

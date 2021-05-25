@@ -1,0 +1,1438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02ECA210265D7BF2006F3DC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA20F265D7BF2006F3DC5 /* AppDelegate.swift */; };
+		02ECA212265D7BF2006F3DC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA211265D7BF2006F3DC5 /* SceneDelegate.swift */; };
+		02ECA214265D7BF2006F3DC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA213265D7BF2006F3DC5 /* ViewController.swift */; };
+		02ECA217265D7BF2006F3DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02ECA215265D7BF2006F3DC5 /* Main.storyboard */; };
+		02ECA219265D7BF3006F3DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02ECA218265D7BF3006F3DC5 /* Assets.xcassets */; };
+		02ECA21C265D7BF3006F3DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02ECA21A265D7BF3006F3DC5 /* LaunchScreen.storyboard */; };
+		02ECA227265D7BF3006F3DC5 /* AnyObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA226265D7BF3006F3DC5 /* AnyObjectTests.swift */; };
+		02ECA232265D7BF3006F3DC5 /* AnyObjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA231265D7BF3006F3DC5 /* AnyObjectUITests.swift */; };
+		02ECA248265D7C0A006F3DC5 /* AnyObject1Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA243265D7C0A006F3DC5 /* AnyObject1Protocols.swift */; };
+		02ECA249265D7C0A006F3DC5 /* AnyObject1Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA244265D7C0A006F3DC5 /* AnyObject1Presenter.swift */; };
+		02ECA24A265D7C0A006F3DC5 /* AnyObject1WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA245265D7C0A006F3DC5 /* AnyObject1WireFrame.swift */; };
+		02ECA24B265D7C0A006F3DC5 /* AnyObject1Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA246265D7C0A006F3DC5 /* AnyObject1Interactor.swift */; };
+		02ECA24C265D7C0A006F3DC5 /* AnyObject1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA247265D7C0A006F3DC5 /* AnyObject1ViewController.swift */; };
+		02ECA259265D7C15006F3DC5 /* AnyObject2Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA254265D7C15006F3DC5 /* AnyObject2Protocols.swift */; };
+		02ECA25A265D7C15006F3DC5 /* AnyObject2Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA255265D7C15006F3DC5 /* AnyObject2Presenter.swift */; };
+		02ECA25B265D7C15006F3DC5 /* AnyObject2WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA256265D7C15006F3DC5 /* AnyObject2WireFrame.swift */; };
+		02ECA25C265D7C15006F3DC5 /* AnyObject2Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA257265D7C15006F3DC5 /* AnyObject2Interactor.swift */; };
+		02ECA25D265D7C15006F3DC5 /* AnyObject2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA258265D7C15006F3DC5 /* AnyObject2ViewController.swift */; };
+		02ECA26A265D7C20006F3DC5 /* AnyObject3Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA265265D7C20006F3DC5 /* AnyObject3Protocols.swift */; };
+		02ECA26B265D7C20006F3DC5 /* AnyObject3Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA266265D7C20006F3DC5 /* AnyObject3Presenter.swift */; };
+		02ECA26C265D7C20006F3DC5 /* AnyObject3WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA267265D7C20006F3DC5 /* AnyObject3WireFrame.swift */; };
+		02ECA26D265D7C20006F3DC5 /* AnyObject3Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA268265D7C20006F3DC5 /* AnyObject3Interactor.swift */; };
+		02ECA26E265D7C20006F3DC5 /* AnyObject3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA269265D7C20006F3DC5 /* AnyObject3ViewController.swift */; };
+		02ECA27B265D7C28006F3DC5 /* AnyObject4Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA276265D7C28006F3DC5 /* AnyObject4Protocols.swift */; };
+		02ECA27C265D7C28006F3DC5 /* AnyObject4Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA277265D7C28006F3DC5 /* AnyObject4Presenter.swift */; };
+		02ECA27D265D7C28006F3DC5 /* AnyObject4WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA278265D7C28006F3DC5 /* AnyObject4WireFrame.swift */; };
+		02ECA27E265D7C28006F3DC5 /* AnyObject4Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA279265D7C28006F3DC5 /* AnyObject4Interactor.swift */; };
+		02ECA27F265D7C28006F3DC5 /* AnyObject4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA27A265D7C28006F3DC5 /* AnyObject4ViewController.swift */; };
+		02ECA28C265D7C33006F3DC5 /* AnyObject5Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA287265D7C33006F3DC5 /* AnyObject5Protocols.swift */; };
+		02ECA28D265D7C33006F3DC5 /* AnyObject5Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA288265D7C33006F3DC5 /* AnyObject5Presenter.swift */; };
+		02ECA28E265D7C33006F3DC5 /* AnyObject5WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA289265D7C33006F3DC5 /* AnyObject5WireFrame.swift */; };
+		02ECA28F265D7C33006F3DC5 /* AnyObject5Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA28A265D7C33006F3DC5 /* AnyObject5Interactor.swift */; };
+		02ECA290265D7C33006F3DC5 /* AnyObject5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA28B265D7C33006F3DC5 /* AnyObject5ViewController.swift */; };
+		02ECA29D265D7C3C006F3DC5 /* AnyObject6Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA298265D7C3C006F3DC5 /* AnyObject6Protocols.swift */; };
+		02ECA29E265D7C3C006F3DC5 /* AnyObject6Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA299265D7C3C006F3DC5 /* AnyObject6Presenter.swift */; };
+		02ECA29F265D7C3C006F3DC5 /* AnyObject6WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA29A265D7C3C006F3DC5 /* AnyObject6WireFrame.swift */; };
+		02ECA2A0265D7C3C006F3DC5 /* AnyObject6Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA29B265D7C3C006F3DC5 /* AnyObject6Interactor.swift */; };
+		02ECA2A1265D7C3C006F3DC5 /* AnyObject6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA29C265D7C3C006F3DC5 /* AnyObject6ViewController.swift */; };
+		02ECA2AE265D7C44006F3DC5 /* AnyObject7Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2A9265D7C44006F3DC5 /* AnyObject7Protocols.swift */; };
+		02ECA2AF265D7C44006F3DC5 /* AnyObject7Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2AA265D7C44006F3DC5 /* AnyObject7Presenter.swift */; };
+		02ECA2B0265D7C44006F3DC5 /* AnyObject7WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2AB265D7C44006F3DC5 /* AnyObject7WireFrame.swift */; };
+		02ECA2B1265D7C44006F3DC5 /* AnyObject7Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2AC265D7C44006F3DC5 /* AnyObject7Interactor.swift */; };
+		02ECA2B2265D7C44006F3DC5 /* AnyObject7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2AD265D7C44006F3DC5 /* AnyObject7ViewController.swift */; };
+		02ECA2BF265D7C4C006F3DC5 /* AnyObject8Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2BA265D7C4C006F3DC5 /* AnyObject8Protocols.swift */; };
+		02ECA2C0265D7C4C006F3DC5 /* AnyObject8Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2BB265D7C4C006F3DC5 /* AnyObject8Presenter.swift */; };
+		02ECA2C1265D7C4C006F3DC5 /* AnyObject8WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2BC265D7C4C006F3DC5 /* AnyObject8WireFrame.swift */; };
+		02ECA2C2265D7C4C006F3DC5 /* AnyObject8Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2BD265D7C4C006F3DC5 /* AnyObject8Interactor.swift */; };
+		02ECA2C3265D7C4C006F3DC5 /* AnyObject8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2BE265D7C4C006F3DC5 /* AnyObject8ViewController.swift */; };
+		02ECA2D0265D7C55006F3DC5 /* AnyObject9Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2CB265D7C55006F3DC5 /* AnyObject9Protocols.swift */; };
+		02ECA2D1265D7C55006F3DC5 /* AnyObject9Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2CC265D7C55006F3DC5 /* AnyObject9Presenter.swift */; };
+		02ECA2D2265D7C55006F3DC5 /* AnyObject9WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2CD265D7C55006F3DC5 /* AnyObject9WireFrame.swift */; };
+		02ECA2D3265D7C55006F3DC5 /* AnyObject9Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2CE265D7C55006F3DC5 /* AnyObject9Interactor.swift */; };
+		02ECA2D4265D7C55006F3DC5 /* AnyObject9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2CF265D7C55006F3DC5 /* AnyObject9ViewController.swift */; };
+		02ECA2E1265D7C5E006F3DC5 /* AnyObject10Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2DC265D7C5E006F3DC5 /* AnyObject10Protocols.swift */; };
+		02ECA2E2265D7C5E006F3DC5 /* AnyObject10Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2DD265D7C5E006F3DC5 /* AnyObject10Presenter.swift */; };
+		02ECA2E3265D7C5E006F3DC5 /* AnyObject10WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2DE265D7C5E006F3DC5 /* AnyObject10WireFrame.swift */; };
+		02ECA2E4265D7C5E006F3DC5 /* AnyObject10Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2DF265D7C5E006F3DC5 /* AnyObject10Interactor.swift */; };
+		02ECA2E5265D7C5E006F3DC5 /* AnyObject10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2E0265D7C5E006F3DC5 /* AnyObject10ViewController.swift */; };
+		02ECA2F2265D7CAD006F3DC5 /* AnyObject11Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2ED265D7CAD006F3DC5 /* AnyObject11Protocols.swift */; };
+		02ECA2F3265D7CAD006F3DC5 /* AnyObject11Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2EE265D7CAD006F3DC5 /* AnyObject11Presenter.swift */; };
+		02ECA2F4265D7CAD006F3DC5 /* AnyObject11WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2EF265D7CAD006F3DC5 /* AnyObject11WireFrame.swift */; };
+		02ECA2F5265D7CAD006F3DC5 /* AnyObject11Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2F0265D7CAD006F3DC5 /* AnyObject11Interactor.swift */; };
+		02ECA2F6265D7CAD006F3DC5 /* AnyObject11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2F1265D7CAD006F3DC5 /* AnyObject11ViewController.swift */; };
+		02ECA303265D7CB5006F3DC5 /* AnyObject12Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2FE265D7CB5006F3DC5 /* AnyObject12Protocols.swift */; };
+		02ECA304265D7CB5006F3DC5 /* AnyObject12Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA2FF265D7CB5006F3DC5 /* AnyObject12Presenter.swift */; };
+		02ECA305265D7CB5006F3DC5 /* AnyObject12WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA300265D7CB5006F3DC5 /* AnyObject12WireFrame.swift */; };
+		02ECA306265D7CB5006F3DC5 /* AnyObject12Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA301265D7CB5006F3DC5 /* AnyObject12Interactor.swift */; };
+		02ECA307265D7CB5006F3DC5 /* AnyObject12ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA302265D7CB5006F3DC5 /* AnyObject12ViewController.swift */; };
+		02ECA314265D7CBE006F3DC5 /* AnyObject13Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA30F265D7CBE006F3DC5 /* AnyObject13Protocols.swift */; };
+		02ECA315265D7CBE006F3DC5 /* AnyObject13Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA310265D7CBE006F3DC5 /* AnyObject13Presenter.swift */; };
+		02ECA316265D7CBE006F3DC5 /* AnyObject13WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA311265D7CBE006F3DC5 /* AnyObject13WireFrame.swift */; };
+		02ECA317265D7CBE006F3DC5 /* AnyObject13Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA312265D7CBE006F3DC5 /* AnyObject13Interactor.swift */; };
+		02ECA318265D7CBE006F3DC5 /* AnyObject13ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA313265D7CBE006F3DC5 /* AnyObject13ViewController.swift */; };
+		02ECA322265D7CC7006F3DC5 /* AnyObject14Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA31D265D7CC7006F3DC5 /* AnyObject14Protocols.swift */; };
+		02ECA323265D7CC7006F3DC5 /* AnyObject14Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA31E265D7CC7006F3DC5 /* AnyObject14Presenter.swift */; };
+		02ECA324265D7CC7006F3DC5 /* AnyObject14WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA31F265D7CC7006F3DC5 /* AnyObject14WireFrame.swift */; };
+		02ECA325265D7CC7006F3DC5 /* AnyObject14Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA320265D7CC7006F3DC5 /* AnyObject14Interactor.swift */; };
+		02ECA326265D7CC7006F3DC5 /* AnyObject14ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA321265D7CC7006F3DC5 /* AnyObject14ViewController.swift */; };
+		02ECA333265D7CCF006F3DC5 /* AnyObject15Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA32E265D7CCF006F3DC5 /* AnyObject15Protocols.swift */; };
+		02ECA334265D7CCF006F3DC5 /* AnyObject15Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA32F265D7CCF006F3DC5 /* AnyObject15Presenter.swift */; };
+		02ECA335265D7CCF006F3DC5 /* AnyObject15WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA330265D7CCF006F3DC5 /* AnyObject15WireFrame.swift */; };
+		02ECA336265D7CCF006F3DC5 /* AnyObject15Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA331265D7CCF006F3DC5 /* AnyObject15Interactor.swift */; };
+		02ECA337265D7CCF006F3DC5 /* AnyObject15ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA332265D7CCF006F3DC5 /* AnyObject15ViewController.swift */; };
+		02ECA344265D7CD9006F3DC5 /* AnyObject16Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA33F265D7CD9006F3DC5 /* AnyObject16Protocols.swift */; };
+		02ECA345265D7CD9006F3DC5 /* AnyObject16Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA340265D7CD9006F3DC5 /* AnyObject16Presenter.swift */; };
+		02ECA346265D7CD9006F3DC5 /* AnyObject16WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA341265D7CD9006F3DC5 /* AnyObject16WireFrame.swift */; };
+		02ECA347265D7CD9006F3DC5 /* AnyObject16Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA342265D7CD9006F3DC5 /* AnyObject16Interactor.swift */; };
+		02ECA348265D7CD9006F3DC5 /* AnyObject16ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA343265D7CD9006F3DC5 /* AnyObject16ViewController.swift */; };
+		02ECA355265D7CE0006F3DC5 /* AnyObject17Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA350265D7CE0006F3DC5 /* AnyObject17Protocols.swift */; };
+		02ECA356265D7CE0006F3DC5 /* AnyObject17Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA351265D7CE0006F3DC5 /* AnyObject17Presenter.swift */; };
+		02ECA357265D7CE0006F3DC5 /* AnyObject17WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA352265D7CE0006F3DC5 /* AnyObject17WireFrame.swift */; };
+		02ECA358265D7CE0006F3DC5 /* AnyObject17Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA353265D7CE0006F3DC5 /* AnyObject17Interactor.swift */; };
+		02ECA359265D7CE0006F3DC5 /* AnyObject17ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA354265D7CE0006F3DC5 /* AnyObject17ViewController.swift */; };
+		02ECA366265D7CE8006F3DC5 /* AnyObject18Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA361265D7CE8006F3DC5 /* AnyObject18Protocols.swift */; };
+		02ECA367265D7CE8006F3DC5 /* AnyObject18Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA362265D7CE8006F3DC5 /* AnyObject18Presenter.swift */; };
+		02ECA368265D7CE8006F3DC5 /* AnyObject18WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA363265D7CE8006F3DC5 /* AnyObject18WireFrame.swift */; };
+		02ECA369265D7CE8006F3DC5 /* AnyObject18Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA364265D7CE8006F3DC5 /* AnyObject18Interactor.swift */; };
+		02ECA36A265D7CE8006F3DC5 /* AnyObject18ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA365265D7CE8006F3DC5 /* AnyObject18ViewController.swift */; };
+		02ECA377265D7CF0006F3DC5 /* AnyObject19Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA372265D7CF0006F3DC5 /* AnyObject19Protocols.swift */; };
+		02ECA378265D7CF0006F3DC5 /* AnyObject19Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA373265D7CF0006F3DC5 /* AnyObject19Presenter.swift */; };
+		02ECA379265D7CF0006F3DC5 /* AnyObject19WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA374265D7CF0006F3DC5 /* AnyObject19WireFrame.swift */; };
+		02ECA37A265D7CF0006F3DC5 /* AnyObject19Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA375265D7CF0006F3DC5 /* AnyObject19Interactor.swift */; };
+		02ECA37B265D7CF0006F3DC5 /* AnyObject19ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA376265D7CF0006F3DC5 /* AnyObject19ViewController.swift */; };
+		02ECA388265D7CF9006F3DC5 /* AnyObject20Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA383265D7CF9006F3DC5 /* AnyObject20Protocols.swift */; };
+		02ECA389265D7CF9006F3DC5 /* AnyObject20Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA384265D7CF9006F3DC5 /* AnyObject20Presenter.swift */; };
+		02ECA38A265D7CF9006F3DC5 /* AnyObject20WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA385265D7CF9006F3DC5 /* AnyObject20WireFrame.swift */; };
+		02ECA38B265D7CF9006F3DC5 /* AnyObject20Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA386265D7CF9006F3DC5 /* AnyObject20Interactor.swift */; };
+		02ECA38C265D7CF9006F3DC5 /* AnyObject20ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA387265D7CF9006F3DC5 /* AnyObject20ViewController.swift */; };
+		02ECA399265D7D01006F3DC5 /* AnyObject21Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA394265D7D01006F3DC5 /* AnyObject21Protocols.swift */; };
+		02ECA39A265D7D01006F3DC5 /* AnyObject21Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA395265D7D01006F3DC5 /* AnyObject21Presenter.swift */; };
+		02ECA39B265D7D01006F3DC5 /* AnyObject21WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA396265D7D01006F3DC5 /* AnyObject21WireFrame.swift */; };
+		02ECA39C265D7D01006F3DC5 /* AnyObject21Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA397265D7D01006F3DC5 /* AnyObject21Interactor.swift */; };
+		02ECA39D265D7D01006F3DC5 /* AnyObject21ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA398265D7D01006F3DC5 /* AnyObject21ViewController.swift */; };
+		02ECA3A7265D7D0B006F3DC5 /* AnyObject22Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3A2265D7D0B006F3DC5 /* AnyObject22Protocols.swift */; };
+		02ECA3A8265D7D0B006F3DC5 /* AnyObject22Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3A3265D7D0B006F3DC5 /* AnyObject22Presenter.swift */; };
+		02ECA3A9265D7D0B006F3DC5 /* AnyObject22WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3A4265D7D0B006F3DC5 /* AnyObject22WireFrame.swift */; };
+		02ECA3AA265D7D0B006F3DC5 /* AnyObject22Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3A5265D7D0B006F3DC5 /* AnyObject22Interactor.swift */; };
+		02ECA3AB265D7D0B006F3DC5 /* AnyObject22ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3A6265D7D0B006F3DC5 /* AnyObject22ViewController.swift */; };
+		02ECA3B8265D7D14006F3DC5 /* AnyObject23Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3B3265D7D14006F3DC5 /* AnyObject23Protocols.swift */; };
+		02ECA3B9265D7D14006F3DC5 /* AnyObject23Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3B4265D7D14006F3DC5 /* AnyObject23Presenter.swift */; };
+		02ECA3BA265D7D14006F3DC5 /* AnyObject23WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3B5265D7D14006F3DC5 /* AnyObject23WireFrame.swift */; };
+		02ECA3BB265D7D14006F3DC5 /* AnyObject23Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3B6265D7D14006F3DC5 /* AnyObject23Interactor.swift */; };
+		02ECA3BC265D7D14006F3DC5 /* AnyObject23ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3B7265D7D14006F3DC5 /* AnyObject23ViewController.swift */; };
+		02ECA3C9265D7D1C006F3DC5 /* AnyObject24Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3C4265D7D1C006F3DC5 /* AnyObject24Protocols.swift */; };
+		02ECA3CA265D7D1C006F3DC5 /* AnyObject24Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3C5265D7D1C006F3DC5 /* AnyObject24Presenter.swift */; };
+		02ECA3CB265D7D1C006F3DC5 /* AnyObject24WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3C6265D7D1C006F3DC5 /* AnyObject24WireFrame.swift */; };
+		02ECA3CC265D7D1C006F3DC5 /* AnyObject24Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3C7265D7D1C006F3DC5 /* AnyObject24Interactor.swift */; };
+		02ECA3CD265D7D1C006F3DC5 /* AnyObject24ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3C8265D7D1C006F3DC5 /* AnyObject24ViewController.swift */; };
+		02ECA3DA265D7D24006F3DC5 /* AnyObject25Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3D5265D7D24006F3DC5 /* AnyObject25Protocols.swift */; };
+		02ECA3DB265D7D24006F3DC5 /* AnyObject25Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3D6265D7D24006F3DC5 /* AnyObject25Presenter.swift */; };
+		02ECA3DC265D7D24006F3DC5 /* AnyObject25WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3D7265D7D24006F3DC5 /* AnyObject25WireFrame.swift */; };
+		02ECA3DD265D7D24006F3DC5 /* AnyObject25Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3D8265D7D24006F3DC5 /* AnyObject25Interactor.swift */; };
+		02ECA3DE265D7D24006F3DC5 /* AnyObject25ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3D9265D7D24006F3DC5 /* AnyObject25ViewController.swift */; };
+		02ECA3EB265D7D2E006F3DC5 /* AnyObject26Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3E6265D7D2E006F3DC5 /* AnyObject26Protocols.swift */; };
+		02ECA3EC265D7D2E006F3DC5 /* AnyObject26Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3E7265D7D2E006F3DC5 /* AnyObject26Presenter.swift */; };
+		02ECA3ED265D7D2E006F3DC5 /* AnyObject26WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3E8265D7D2E006F3DC5 /* AnyObject26WireFrame.swift */; };
+		02ECA3EE265D7D2E006F3DC5 /* AnyObject26Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3E9265D7D2E006F3DC5 /* AnyObject26Interactor.swift */; };
+		02ECA3EF265D7D2E006F3DC5 /* AnyObject26ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3EA265D7D2E006F3DC5 /* AnyObject26ViewController.swift */; };
+		02ECA3FC265D7D37006F3DC5 /* AnyObject27Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3F7265D7D37006F3DC5 /* AnyObject27Protocols.swift */; };
+		02ECA3FD265D7D37006F3DC5 /* AnyObject27Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3F8265D7D37006F3DC5 /* AnyObject27Presenter.swift */; };
+		02ECA3FE265D7D37006F3DC5 /* AnyObject27WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3F9265D7D37006F3DC5 /* AnyObject27WireFrame.swift */; };
+		02ECA3FF265D7D37006F3DC5 /* AnyObject27Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3FA265D7D37006F3DC5 /* AnyObject27Interactor.swift */; };
+		02ECA400265D7D37006F3DC5 /* AnyObject27ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA3FB265D7D37006F3DC5 /* AnyObject27ViewController.swift */; };
+		02ECA40D265D7D3F006F3DC5 /* AnyObject28Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA408265D7D3F006F3DC5 /* AnyObject28Protocols.swift */; };
+		02ECA40E265D7D3F006F3DC5 /* AnyObject28Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA409265D7D3F006F3DC5 /* AnyObject28Presenter.swift */; };
+		02ECA40F265D7D3F006F3DC5 /* AnyObject28WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA40A265D7D3F006F3DC5 /* AnyObject28WireFrame.swift */; };
+		02ECA410265D7D3F006F3DC5 /* AnyObject28Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA40B265D7D3F006F3DC5 /* AnyObject28Interactor.swift */; };
+		02ECA411265D7D3F006F3DC5 /* AnyObject28ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA40C265D7D3F006F3DC5 /* AnyObject28ViewController.swift */; };
+		02ECA41E265D7D48006F3DC5 /* AnyObject29Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA419265D7D48006F3DC5 /* AnyObject29Protocols.swift */; };
+		02ECA41F265D7D48006F3DC5 /* AnyObject29Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA41A265D7D48006F3DC5 /* AnyObject29Presenter.swift */; };
+		02ECA420265D7D48006F3DC5 /* AnyObject29WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA41B265D7D48006F3DC5 /* AnyObject29WireFrame.swift */; };
+		02ECA421265D7D48006F3DC5 /* AnyObject29Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA41C265D7D48006F3DC5 /* AnyObject29Interactor.swift */; };
+		02ECA422265D7D48006F3DC5 /* AnyObject29ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA41D265D7D48006F3DC5 /* AnyObject29ViewController.swift */; };
+		02ECA42F265D7D51006F3DC5 /* AnyObject30Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA42A265D7D51006F3DC5 /* AnyObject30Protocols.swift */; };
+		02ECA430265D7D51006F3DC5 /* AnyObject30Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA42B265D7D51006F3DC5 /* AnyObject30Presenter.swift */; };
+		02ECA431265D7D51006F3DC5 /* AnyObject30WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA42C265D7D51006F3DC5 /* AnyObject30WireFrame.swift */; };
+		02ECA432265D7D51006F3DC5 /* AnyObject30Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA42D265D7D51006F3DC5 /* AnyObject30Interactor.swift */; };
+		02ECA433265D7D51006F3DC5 /* AnyObject30ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECA42E265D7D51006F3DC5 /* AnyObject30ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02ECA223265D7BF3006F3DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02ECA204265D7BF2006F3DC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02ECA20B265D7BF2006F3DC5;
+			remoteInfo = AnyObject;
+		};
+		02ECA22E265D7BF3006F3DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02ECA204265D7BF2006F3DC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02ECA20B265D7BF2006F3DC5;
+			remoteInfo = AnyObject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02ECA20C265D7BF2006F3DC5 /* AnyObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02ECA20F265D7BF2006F3DC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02ECA211265D7BF2006F3DC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02ECA213265D7BF2006F3DC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02ECA216265D7BF2006F3DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02ECA218265D7BF3006F3DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02ECA21B265D7BF3006F3DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02ECA21D265D7BF3006F3DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02ECA222265D7BF3006F3DC5 /* AnyObjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnyObjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02ECA226265D7BF3006F3DC5 /* AnyObjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObjectTests.swift; sourceTree = "<group>"; };
+		02ECA228265D7BF3006F3DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02ECA22D265D7BF3006F3DC5 /* AnyObjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnyObjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02ECA231265D7BF3006F3DC5 /* AnyObjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObjectUITests.swift; sourceTree = "<group>"; };
+		02ECA233265D7BF3006F3DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02ECA243265D7C0A006F3DC5 /* AnyObject1Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject1Protocols.swift; sourceTree = "<group>"; };
+		02ECA244265D7C0A006F3DC5 /* AnyObject1Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject1Presenter.swift; sourceTree = "<group>"; };
+		02ECA245265D7C0A006F3DC5 /* AnyObject1WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject1WireFrame.swift; sourceTree = "<group>"; };
+		02ECA246265D7C0A006F3DC5 /* AnyObject1Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject1Interactor.swift; sourceTree = "<group>"; };
+		02ECA247265D7C0A006F3DC5 /* AnyObject1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject1ViewController.swift; sourceTree = "<group>"; };
+		02ECA254265D7C15006F3DC5 /* AnyObject2Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject2Protocols.swift; sourceTree = "<group>"; };
+		02ECA255265D7C15006F3DC5 /* AnyObject2Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject2Presenter.swift; sourceTree = "<group>"; };
+		02ECA256265D7C15006F3DC5 /* AnyObject2WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject2WireFrame.swift; sourceTree = "<group>"; };
+		02ECA257265D7C15006F3DC5 /* AnyObject2Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject2Interactor.swift; sourceTree = "<group>"; };
+		02ECA258265D7C15006F3DC5 /* AnyObject2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject2ViewController.swift; sourceTree = "<group>"; };
+		02ECA265265D7C20006F3DC5 /* AnyObject3Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject3Protocols.swift; sourceTree = "<group>"; };
+		02ECA266265D7C20006F3DC5 /* AnyObject3Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject3Presenter.swift; sourceTree = "<group>"; };
+		02ECA267265D7C20006F3DC5 /* AnyObject3WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject3WireFrame.swift; sourceTree = "<group>"; };
+		02ECA268265D7C20006F3DC5 /* AnyObject3Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject3Interactor.swift; sourceTree = "<group>"; };
+		02ECA269265D7C20006F3DC5 /* AnyObject3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject3ViewController.swift; sourceTree = "<group>"; };
+		02ECA276265D7C28006F3DC5 /* AnyObject4Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject4Protocols.swift; sourceTree = "<group>"; };
+		02ECA277265D7C28006F3DC5 /* AnyObject4Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject4Presenter.swift; sourceTree = "<group>"; };
+		02ECA278265D7C28006F3DC5 /* AnyObject4WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject4WireFrame.swift; sourceTree = "<group>"; };
+		02ECA279265D7C28006F3DC5 /* AnyObject4Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject4Interactor.swift; sourceTree = "<group>"; };
+		02ECA27A265D7C28006F3DC5 /* AnyObject4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject4ViewController.swift; sourceTree = "<group>"; };
+		02ECA287265D7C33006F3DC5 /* AnyObject5Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject5Protocols.swift; sourceTree = "<group>"; };
+		02ECA288265D7C33006F3DC5 /* AnyObject5Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject5Presenter.swift; sourceTree = "<group>"; };
+		02ECA289265D7C33006F3DC5 /* AnyObject5WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject5WireFrame.swift; sourceTree = "<group>"; };
+		02ECA28A265D7C33006F3DC5 /* AnyObject5Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject5Interactor.swift; sourceTree = "<group>"; };
+		02ECA28B265D7C33006F3DC5 /* AnyObject5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject5ViewController.swift; sourceTree = "<group>"; };
+		02ECA298265D7C3C006F3DC5 /* AnyObject6Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject6Protocols.swift; sourceTree = "<group>"; };
+		02ECA299265D7C3C006F3DC5 /* AnyObject6Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject6Presenter.swift; sourceTree = "<group>"; };
+		02ECA29A265D7C3C006F3DC5 /* AnyObject6WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject6WireFrame.swift; sourceTree = "<group>"; };
+		02ECA29B265D7C3C006F3DC5 /* AnyObject6Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject6Interactor.swift; sourceTree = "<group>"; };
+		02ECA29C265D7C3C006F3DC5 /* AnyObject6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject6ViewController.swift; sourceTree = "<group>"; };
+		02ECA2A9265D7C44006F3DC5 /* AnyObject7Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject7Protocols.swift; sourceTree = "<group>"; };
+		02ECA2AA265D7C44006F3DC5 /* AnyObject7Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject7Presenter.swift; sourceTree = "<group>"; };
+		02ECA2AB265D7C44006F3DC5 /* AnyObject7WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject7WireFrame.swift; sourceTree = "<group>"; };
+		02ECA2AC265D7C44006F3DC5 /* AnyObject7Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject7Interactor.swift; sourceTree = "<group>"; };
+		02ECA2AD265D7C44006F3DC5 /* AnyObject7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject7ViewController.swift; sourceTree = "<group>"; };
+		02ECA2BA265D7C4C006F3DC5 /* AnyObject8Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject8Protocols.swift; sourceTree = "<group>"; };
+		02ECA2BB265D7C4C006F3DC5 /* AnyObject8Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject8Presenter.swift; sourceTree = "<group>"; };
+		02ECA2BC265D7C4C006F3DC5 /* AnyObject8WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject8WireFrame.swift; sourceTree = "<group>"; };
+		02ECA2BD265D7C4C006F3DC5 /* AnyObject8Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject8Interactor.swift; sourceTree = "<group>"; };
+		02ECA2BE265D7C4C006F3DC5 /* AnyObject8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject8ViewController.swift; sourceTree = "<group>"; };
+		02ECA2CB265D7C55006F3DC5 /* AnyObject9Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject9Protocols.swift; sourceTree = "<group>"; };
+		02ECA2CC265D7C55006F3DC5 /* AnyObject9Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject9Presenter.swift; sourceTree = "<group>"; };
+		02ECA2CD265D7C55006F3DC5 /* AnyObject9WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject9WireFrame.swift; sourceTree = "<group>"; };
+		02ECA2CE265D7C55006F3DC5 /* AnyObject9Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject9Interactor.swift; sourceTree = "<group>"; };
+		02ECA2CF265D7C55006F3DC5 /* AnyObject9ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject9ViewController.swift; sourceTree = "<group>"; };
+		02ECA2DC265D7C5E006F3DC5 /* AnyObject10Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject10Protocols.swift; sourceTree = "<group>"; };
+		02ECA2DD265D7C5E006F3DC5 /* AnyObject10Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject10Presenter.swift; sourceTree = "<group>"; };
+		02ECA2DE265D7C5E006F3DC5 /* AnyObject10WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject10WireFrame.swift; sourceTree = "<group>"; };
+		02ECA2DF265D7C5E006F3DC5 /* AnyObject10Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject10Interactor.swift; sourceTree = "<group>"; };
+		02ECA2E0265D7C5E006F3DC5 /* AnyObject10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject10ViewController.swift; sourceTree = "<group>"; };
+		02ECA2ED265D7CAD006F3DC5 /* AnyObject11Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject11Protocols.swift; sourceTree = "<group>"; };
+		02ECA2EE265D7CAD006F3DC5 /* AnyObject11Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject11Presenter.swift; sourceTree = "<group>"; };
+		02ECA2EF265D7CAD006F3DC5 /* AnyObject11WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject11WireFrame.swift; sourceTree = "<group>"; };
+		02ECA2F0265D7CAD006F3DC5 /* AnyObject11Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject11Interactor.swift; sourceTree = "<group>"; };
+		02ECA2F1265D7CAD006F3DC5 /* AnyObject11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject11ViewController.swift; sourceTree = "<group>"; };
+		02ECA2FE265D7CB5006F3DC5 /* AnyObject12Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject12Protocols.swift; sourceTree = "<group>"; };
+		02ECA2FF265D7CB5006F3DC5 /* AnyObject12Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject12Presenter.swift; sourceTree = "<group>"; };
+		02ECA300265D7CB5006F3DC5 /* AnyObject12WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject12WireFrame.swift; sourceTree = "<group>"; };
+		02ECA301265D7CB5006F3DC5 /* AnyObject12Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject12Interactor.swift; sourceTree = "<group>"; };
+		02ECA302265D7CB5006F3DC5 /* AnyObject12ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject12ViewController.swift; sourceTree = "<group>"; };
+		02ECA30F265D7CBE006F3DC5 /* AnyObject13Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject13Protocols.swift; sourceTree = "<group>"; };
+		02ECA310265D7CBE006F3DC5 /* AnyObject13Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject13Presenter.swift; sourceTree = "<group>"; };
+		02ECA311265D7CBE006F3DC5 /* AnyObject13WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject13WireFrame.swift; sourceTree = "<group>"; };
+		02ECA312265D7CBE006F3DC5 /* AnyObject13Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject13Interactor.swift; sourceTree = "<group>"; };
+		02ECA313265D7CBE006F3DC5 /* AnyObject13ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject13ViewController.swift; sourceTree = "<group>"; };
+		02ECA31D265D7CC7006F3DC5 /* AnyObject14Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject14Protocols.swift; sourceTree = "<group>"; };
+		02ECA31E265D7CC7006F3DC5 /* AnyObject14Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject14Presenter.swift; sourceTree = "<group>"; };
+		02ECA31F265D7CC7006F3DC5 /* AnyObject14WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject14WireFrame.swift; sourceTree = "<group>"; };
+		02ECA320265D7CC7006F3DC5 /* AnyObject14Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject14Interactor.swift; sourceTree = "<group>"; };
+		02ECA321265D7CC7006F3DC5 /* AnyObject14ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject14ViewController.swift; sourceTree = "<group>"; };
+		02ECA32E265D7CCF006F3DC5 /* AnyObject15Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject15Protocols.swift; sourceTree = "<group>"; };
+		02ECA32F265D7CCF006F3DC5 /* AnyObject15Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject15Presenter.swift; sourceTree = "<group>"; };
+		02ECA330265D7CCF006F3DC5 /* AnyObject15WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject15WireFrame.swift; sourceTree = "<group>"; };
+		02ECA331265D7CCF006F3DC5 /* AnyObject15Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject15Interactor.swift; sourceTree = "<group>"; };
+		02ECA332265D7CCF006F3DC5 /* AnyObject15ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject15ViewController.swift; sourceTree = "<group>"; };
+		02ECA33F265D7CD9006F3DC5 /* AnyObject16Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject16Protocols.swift; sourceTree = "<group>"; };
+		02ECA340265D7CD9006F3DC5 /* AnyObject16Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject16Presenter.swift; sourceTree = "<group>"; };
+		02ECA341265D7CD9006F3DC5 /* AnyObject16WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject16WireFrame.swift; sourceTree = "<group>"; };
+		02ECA342265D7CD9006F3DC5 /* AnyObject16Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject16Interactor.swift; sourceTree = "<group>"; };
+		02ECA343265D7CD9006F3DC5 /* AnyObject16ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject16ViewController.swift; sourceTree = "<group>"; };
+		02ECA350265D7CE0006F3DC5 /* AnyObject17Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject17Protocols.swift; sourceTree = "<group>"; };
+		02ECA351265D7CE0006F3DC5 /* AnyObject17Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject17Presenter.swift; sourceTree = "<group>"; };
+		02ECA352265D7CE0006F3DC5 /* AnyObject17WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject17WireFrame.swift; sourceTree = "<group>"; };
+		02ECA353265D7CE0006F3DC5 /* AnyObject17Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject17Interactor.swift; sourceTree = "<group>"; };
+		02ECA354265D7CE0006F3DC5 /* AnyObject17ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject17ViewController.swift; sourceTree = "<group>"; };
+		02ECA361265D7CE8006F3DC5 /* AnyObject18Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject18Protocols.swift; sourceTree = "<group>"; };
+		02ECA362265D7CE8006F3DC5 /* AnyObject18Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject18Presenter.swift; sourceTree = "<group>"; };
+		02ECA363265D7CE8006F3DC5 /* AnyObject18WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject18WireFrame.swift; sourceTree = "<group>"; };
+		02ECA364265D7CE8006F3DC5 /* AnyObject18Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject18Interactor.swift; sourceTree = "<group>"; };
+		02ECA365265D7CE8006F3DC5 /* AnyObject18ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject18ViewController.swift; sourceTree = "<group>"; };
+		02ECA372265D7CF0006F3DC5 /* AnyObject19Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject19Protocols.swift; sourceTree = "<group>"; };
+		02ECA373265D7CF0006F3DC5 /* AnyObject19Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject19Presenter.swift; sourceTree = "<group>"; };
+		02ECA374265D7CF0006F3DC5 /* AnyObject19WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject19WireFrame.swift; sourceTree = "<group>"; };
+		02ECA375265D7CF0006F3DC5 /* AnyObject19Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject19Interactor.swift; sourceTree = "<group>"; };
+		02ECA376265D7CF0006F3DC5 /* AnyObject19ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject19ViewController.swift; sourceTree = "<group>"; };
+		02ECA383265D7CF9006F3DC5 /* AnyObject20Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject20Protocols.swift; sourceTree = "<group>"; };
+		02ECA384265D7CF9006F3DC5 /* AnyObject20Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject20Presenter.swift; sourceTree = "<group>"; };
+		02ECA385265D7CF9006F3DC5 /* AnyObject20WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject20WireFrame.swift; sourceTree = "<group>"; };
+		02ECA386265D7CF9006F3DC5 /* AnyObject20Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject20Interactor.swift; sourceTree = "<group>"; };
+		02ECA387265D7CF9006F3DC5 /* AnyObject20ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject20ViewController.swift; sourceTree = "<group>"; };
+		02ECA394265D7D01006F3DC5 /* AnyObject21Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject21Protocols.swift; sourceTree = "<group>"; };
+		02ECA395265D7D01006F3DC5 /* AnyObject21Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject21Presenter.swift; sourceTree = "<group>"; };
+		02ECA396265D7D01006F3DC5 /* AnyObject21WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject21WireFrame.swift; sourceTree = "<group>"; };
+		02ECA397265D7D01006F3DC5 /* AnyObject21Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject21Interactor.swift; sourceTree = "<group>"; };
+		02ECA398265D7D01006F3DC5 /* AnyObject21ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject21ViewController.swift; sourceTree = "<group>"; };
+		02ECA3A2265D7D0B006F3DC5 /* AnyObject22Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject22Protocols.swift; sourceTree = "<group>"; };
+		02ECA3A3265D7D0B006F3DC5 /* AnyObject22Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject22Presenter.swift; sourceTree = "<group>"; };
+		02ECA3A4265D7D0B006F3DC5 /* AnyObject22WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject22WireFrame.swift; sourceTree = "<group>"; };
+		02ECA3A5265D7D0B006F3DC5 /* AnyObject22Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject22Interactor.swift; sourceTree = "<group>"; };
+		02ECA3A6265D7D0B006F3DC5 /* AnyObject22ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject22ViewController.swift; sourceTree = "<group>"; };
+		02ECA3B3265D7D14006F3DC5 /* AnyObject23Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject23Protocols.swift; sourceTree = "<group>"; };
+		02ECA3B4265D7D14006F3DC5 /* AnyObject23Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject23Presenter.swift; sourceTree = "<group>"; };
+		02ECA3B5265D7D14006F3DC5 /* AnyObject23WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject23WireFrame.swift; sourceTree = "<group>"; };
+		02ECA3B6265D7D14006F3DC5 /* AnyObject23Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject23Interactor.swift; sourceTree = "<group>"; };
+		02ECA3B7265D7D14006F3DC5 /* AnyObject23ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject23ViewController.swift; sourceTree = "<group>"; };
+		02ECA3C4265D7D1C006F3DC5 /* AnyObject24Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject24Protocols.swift; sourceTree = "<group>"; };
+		02ECA3C5265D7D1C006F3DC5 /* AnyObject24Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject24Presenter.swift; sourceTree = "<group>"; };
+		02ECA3C6265D7D1C006F3DC5 /* AnyObject24WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject24WireFrame.swift; sourceTree = "<group>"; };
+		02ECA3C7265D7D1C006F3DC5 /* AnyObject24Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject24Interactor.swift; sourceTree = "<group>"; };
+		02ECA3C8265D7D1C006F3DC5 /* AnyObject24ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject24ViewController.swift; sourceTree = "<group>"; };
+		02ECA3D5265D7D24006F3DC5 /* AnyObject25Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject25Protocols.swift; sourceTree = "<group>"; };
+		02ECA3D6265D7D24006F3DC5 /* AnyObject25Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject25Presenter.swift; sourceTree = "<group>"; };
+		02ECA3D7265D7D24006F3DC5 /* AnyObject25WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject25WireFrame.swift; sourceTree = "<group>"; };
+		02ECA3D8265D7D24006F3DC5 /* AnyObject25Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject25Interactor.swift; sourceTree = "<group>"; };
+		02ECA3D9265D7D24006F3DC5 /* AnyObject25ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject25ViewController.swift; sourceTree = "<group>"; };
+		02ECA3E6265D7D2E006F3DC5 /* AnyObject26Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject26Protocols.swift; sourceTree = "<group>"; };
+		02ECA3E7265D7D2E006F3DC5 /* AnyObject26Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject26Presenter.swift; sourceTree = "<group>"; };
+		02ECA3E8265D7D2E006F3DC5 /* AnyObject26WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject26WireFrame.swift; sourceTree = "<group>"; };
+		02ECA3E9265D7D2E006F3DC5 /* AnyObject26Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject26Interactor.swift; sourceTree = "<group>"; };
+		02ECA3EA265D7D2E006F3DC5 /* AnyObject26ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject26ViewController.swift; sourceTree = "<group>"; };
+		02ECA3F7265D7D37006F3DC5 /* AnyObject27Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject27Protocols.swift; sourceTree = "<group>"; };
+		02ECA3F8265D7D37006F3DC5 /* AnyObject27Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject27Presenter.swift; sourceTree = "<group>"; };
+		02ECA3F9265D7D37006F3DC5 /* AnyObject27WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject27WireFrame.swift; sourceTree = "<group>"; };
+		02ECA3FA265D7D37006F3DC5 /* AnyObject27Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject27Interactor.swift; sourceTree = "<group>"; };
+		02ECA3FB265D7D37006F3DC5 /* AnyObject27ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject27ViewController.swift; sourceTree = "<group>"; };
+		02ECA408265D7D3F006F3DC5 /* AnyObject28Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject28Protocols.swift; sourceTree = "<group>"; };
+		02ECA409265D7D3F006F3DC5 /* AnyObject28Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject28Presenter.swift; sourceTree = "<group>"; };
+		02ECA40A265D7D3F006F3DC5 /* AnyObject28WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject28WireFrame.swift; sourceTree = "<group>"; };
+		02ECA40B265D7D3F006F3DC5 /* AnyObject28Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject28Interactor.swift; sourceTree = "<group>"; };
+		02ECA40C265D7D3F006F3DC5 /* AnyObject28ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject28ViewController.swift; sourceTree = "<group>"; };
+		02ECA419265D7D48006F3DC5 /* AnyObject29Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject29Protocols.swift; sourceTree = "<group>"; };
+		02ECA41A265D7D48006F3DC5 /* AnyObject29Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject29Presenter.swift; sourceTree = "<group>"; };
+		02ECA41B265D7D48006F3DC5 /* AnyObject29WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject29WireFrame.swift; sourceTree = "<group>"; };
+		02ECA41C265D7D48006F3DC5 /* AnyObject29Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject29Interactor.swift; sourceTree = "<group>"; };
+		02ECA41D265D7D48006F3DC5 /* AnyObject29ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject29ViewController.swift; sourceTree = "<group>"; };
+		02ECA42A265D7D51006F3DC5 /* AnyObject30Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject30Protocols.swift; sourceTree = "<group>"; };
+		02ECA42B265D7D51006F3DC5 /* AnyObject30Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject30Presenter.swift; sourceTree = "<group>"; };
+		02ECA42C265D7D51006F3DC5 /* AnyObject30WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject30WireFrame.swift; sourceTree = "<group>"; };
+		02ECA42D265D7D51006F3DC5 /* AnyObject30Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject30Interactor.swift; sourceTree = "<group>"; };
+		02ECA42E265D7D51006F3DC5 /* AnyObject30ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObject30ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02ECA209265D7BF2006F3DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02ECA21F265D7BF3006F3DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02ECA22A265D7BF3006F3DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02ECA203265D7BF2006F3DC5 = {
+			isa = PBXGroup;
+			children = (
+				02ECA20E265D7BF2006F3DC5 /* AnyObject */,
+				02ECA225265D7BF3006F3DC5 /* AnyObjectTests */,
+				02ECA230265D7BF3006F3DC5 /* AnyObjectUITests */,
+				02ECA20D265D7BF2006F3DC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02ECA20D265D7BF2006F3DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA20C265D7BF2006F3DC5 /* AnyObject.app */,
+				02ECA222265D7BF3006F3DC5 /* AnyObjectTests.xctest */,
+				02ECA22D265D7BF3006F3DC5 /* AnyObjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02ECA20E265D7BF2006F3DC5 /* AnyObject */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA429265D7D4B006F3DC5 /* AnyObject30 */,
+				02ECA418265D7D43006F3DC5 /* AnyObject29 */,
+				02ECA407265D7D3A006F3DC5 /* AnyObject28 */,
+				02ECA3F6265D7D31006F3DC5 /* AnyObject27 */,
+				02ECA3E5265D7D28006F3DC5 /* AnyObject26 */,
+				02ECA3D4265D7D20006F3DC5 /* AnyObject25 */,
+				02ECA3C3265D7D17006F3DC5 /* AnyObject24 */,
+				02ECA3B2265D7D0F006F3DC5 /* AnyObject23 */,
+				02ECA3A1265D7D05006F3DC5 /* AnyObject22 */,
+				02ECA393265D7CFD006F3DC5 /* AnyObject21 */,
+				02ECA382265D7CF3006F3DC5 /* AnyObject20 */,
+				02ECA371265D7CEB006F3DC5 /* AnyObject19 */,
+				02ECA360265D7CE3006F3DC5 /* AnyObject18 */,
+				02ECA34F265D7CDC006F3DC5 /* AnyObject17 */,
+				02ECA33E265D7CD4006F3DC5 /* AnyObject16 */,
+				02ECA32D265D7CCA006F3DC5 /* AnyObject15 */,
+				02ECA31C265D7CC2006F3DC5 /* AnyObject14 */,
+				02ECA30E265D7CB9006F3DC5 /* AnyObject13 */,
+				02ECA2FD265D7CB1006F3DC5 /* AnyObject12 */,
+				02ECA2EC265D7CA9006F3DC5 /* AnyObject11 */,
+				02ECA2DB265D7C58006F3DC5 /* AnyObject10 */,
+				02ECA2CA265D7C4F006F3DC5 /* AnyObject9 */,
+				02ECA2B9265D7C47006F3DC5 /* AnyObject8 */,
+				02ECA2A8265D7C3F006F3DC5 /* AnyObject7 */,
+				02ECA297265D7C37006F3DC5 /* AnyObject6 */,
+				02ECA286265D7C2D006F3DC5 /* AnyObject5 */,
+				02ECA275265D7C23006F3DC5 /* AnyObject4 */,
+				02ECA264265D7C19006F3DC5 /* AnyObject3 */,
+				02ECA253265D7C11006F3DC5 /* AnyObject2 */,
+				02ECA242265D7BFF006F3DC5 /* AnyObject1 */,
+				02ECA20F265D7BF2006F3DC5 /* AppDelegate.swift */,
+				02ECA211265D7BF2006F3DC5 /* SceneDelegate.swift */,
+				02ECA213265D7BF2006F3DC5 /* ViewController.swift */,
+				02ECA215265D7BF2006F3DC5 /* Main.storyboard */,
+				02ECA218265D7BF3006F3DC5 /* Assets.xcassets */,
+				02ECA21A265D7BF3006F3DC5 /* LaunchScreen.storyboard */,
+				02ECA21D265D7BF3006F3DC5 /* Info.plist */,
+			);
+			path = AnyObject;
+			sourceTree = "<group>";
+		};
+		02ECA225265D7BF3006F3DC5 /* AnyObjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA226265D7BF3006F3DC5 /* AnyObjectTests.swift */,
+				02ECA228265D7BF3006F3DC5 /* Info.plist */,
+			);
+			path = AnyObjectTests;
+			sourceTree = "<group>";
+		};
+		02ECA230265D7BF3006F3DC5 /* AnyObjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA231265D7BF3006F3DC5 /* AnyObjectUITests.swift */,
+				02ECA233265D7BF3006F3DC5 /* Info.plist */,
+			);
+			path = AnyObjectUITests;
+			sourceTree = "<group>";
+		};
+		02ECA242265D7BFF006F3DC5 /* AnyObject1 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA243265D7C0A006F3DC5 /* AnyObject1Protocols.swift */,
+				02ECA244265D7C0A006F3DC5 /* AnyObject1Presenter.swift */,
+				02ECA245265D7C0A006F3DC5 /* AnyObject1WireFrame.swift */,
+				02ECA246265D7C0A006F3DC5 /* AnyObject1Interactor.swift */,
+				02ECA247265D7C0A006F3DC5 /* AnyObject1ViewController.swift */,
+			);
+			path = AnyObject1;
+			sourceTree = "<group>";
+		};
+		02ECA253265D7C11006F3DC5 /* AnyObject2 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA254265D7C15006F3DC5 /* AnyObject2Protocols.swift */,
+				02ECA255265D7C15006F3DC5 /* AnyObject2Presenter.swift */,
+				02ECA256265D7C15006F3DC5 /* AnyObject2WireFrame.swift */,
+				02ECA257265D7C15006F3DC5 /* AnyObject2Interactor.swift */,
+				02ECA258265D7C15006F3DC5 /* AnyObject2ViewController.swift */,
+			);
+			path = AnyObject2;
+			sourceTree = "<group>";
+		};
+		02ECA264265D7C19006F3DC5 /* AnyObject3 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA265265D7C20006F3DC5 /* AnyObject3Protocols.swift */,
+				02ECA266265D7C20006F3DC5 /* AnyObject3Presenter.swift */,
+				02ECA267265D7C20006F3DC5 /* AnyObject3WireFrame.swift */,
+				02ECA268265D7C20006F3DC5 /* AnyObject3Interactor.swift */,
+				02ECA269265D7C20006F3DC5 /* AnyObject3ViewController.swift */,
+			);
+			path = AnyObject3;
+			sourceTree = "<group>";
+		};
+		02ECA275265D7C23006F3DC5 /* AnyObject4 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA276265D7C28006F3DC5 /* AnyObject4Protocols.swift */,
+				02ECA277265D7C28006F3DC5 /* AnyObject4Presenter.swift */,
+				02ECA278265D7C28006F3DC5 /* AnyObject4WireFrame.swift */,
+				02ECA279265D7C28006F3DC5 /* AnyObject4Interactor.swift */,
+				02ECA27A265D7C28006F3DC5 /* AnyObject4ViewController.swift */,
+			);
+			path = AnyObject4;
+			sourceTree = "<group>";
+		};
+		02ECA286265D7C2D006F3DC5 /* AnyObject5 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA287265D7C33006F3DC5 /* AnyObject5Protocols.swift */,
+				02ECA288265D7C33006F3DC5 /* AnyObject5Presenter.swift */,
+				02ECA289265D7C33006F3DC5 /* AnyObject5WireFrame.swift */,
+				02ECA28A265D7C33006F3DC5 /* AnyObject5Interactor.swift */,
+				02ECA28B265D7C33006F3DC5 /* AnyObject5ViewController.swift */,
+			);
+			path = AnyObject5;
+			sourceTree = "<group>";
+		};
+		02ECA297265D7C37006F3DC5 /* AnyObject6 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA298265D7C3C006F3DC5 /* AnyObject6Protocols.swift */,
+				02ECA299265D7C3C006F3DC5 /* AnyObject6Presenter.swift */,
+				02ECA29A265D7C3C006F3DC5 /* AnyObject6WireFrame.swift */,
+				02ECA29B265D7C3C006F3DC5 /* AnyObject6Interactor.swift */,
+				02ECA29C265D7C3C006F3DC5 /* AnyObject6ViewController.swift */,
+			);
+			path = AnyObject6;
+			sourceTree = "<group>";
+		};
+		02ECA2A8265D7C3F006F3DC5 /* AnyObject7 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA2A9265D7C44006F3DC5 /* AnyObject7Protocols.swift */,
+				02ECA2AA265D7C44006F3DC5 /* AnyObject7Presenter.swift */,
+				02ECA2AB265D7C44006F3DC5 /* AnyObject7WireFrame.swift */,
+				02ECA2AC265D7C44006F3DC5 /* AnyObject7Interactor.swift */,
+				02ECA2AD265D7C44006F3DC5 /* AnyObject7ViewController.swift */,
+			);
+			path = AnyObject7;
+			sourceTree = "<group>";
+		};
+		02ECA2B9265D7C47006F3DC5 /* AnyObject8 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA2BA265D7C4C006F3DC5 /* AnyObject8Protocols.swift */,
+				02ECA2BB265D7C4C006F3DC5 /* AnyObject8Presenter.swift */,
+				02ECA2BC265D7C4C006F3DC5 /* AnyObject8WireFrame.swift */,
+				02ECA2BD265D7C4C006F3DC5 /* AnyObject8Interactor.swift */,
+				02ECA2BE265D7C4C006F3DC5 /* AnyObject8ViewController.swift */,
+			);
+			path = AnyObject8;
+			sourceTree = "<group>";
+		};
+		02ECA2CA265D7C4F006F3DC5 /* AnyObject9 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA2CB265D7C55006F3DC5 /* AnyObject9Protocols.swift */,
+				02ECA2CC265D7C55006F3DC5 /* AnyObject9Presenter.swift */,
+				02ECA2CD265D7C55006F3DC5 /* AnyObject9WireFrame.swift */,
+				02ECA2CE265D7C55006F3DC5 /* AnyObject9Interactor.swift */,
+				02ECA2CF265D7C55006F3DC5 /* AnyObject9ViewController.swift */,
+			);
+			path = AnyObject9;
+			sourceTree = "<group>";
+		};
+		02ECA2DB265D7C58006F3DC5 /* AnyObject10 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA2DC265D7C5E006F3DC5 /* AnyObject10Protocols.swift */,
+				02ECA2DD265D7C5E006F3DC5 /* AnyObject10Presenter.swift */,
+				02ECA2DE265D7C5E006F3DC5 /* AnyObject10WireFrame.swift */,
+				02ECA2DF265D7C5E006F3DC5 /* AnyObject10Interactor.swift */,
+				02ECA2E0265D7C5E006F3DC5 /* AnyObject10ViewController.swift */,
+			);
+			path = AnyObject10;
+			sourceTree = "<group>";
+		};
+		02ECA2EC265D7CA9006F3DC5 /* AnyObject11 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA2ED265D7CAD006F3DC5 /* AnyObject11Protocols.swift */,
+				02ECA2EE265D7CAD006F3DC5 /* AnyObject11Presenter.swift */,
+				02ECA2EF265D7CAD006F3DC5 /* AnyObject11WireFrame.swift */,
+				02ECA2F0265D7CAD006F3DC5 /* AnyObject11Interactor.swift */,
+				02ECA2F1265D7CAD006F3DC5 /* AnyObject11ViewController.swift */,
+			);
+			path = AnyObject11;
+			sourceTree = "<group>";
+		};
+		02ECA2FD265D7CB1006F3DC5 /* AnyObject12 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA2FE265D7CB5006F3DC5 /* AnyObject12Protocols.swift */,
+				02ECA2FF265D7CB5006F3DC5 /* AnyObject12Presenter.swift */,
+				02ECA300265D7CB5006F3DC5 /* AnyObject12WireFrame.swift */,
+				02ECA301265D7CB5006F3DC5 /* AnyObject12Interactor.swift */,
+				02ECA302265D7CB5006F3DC5 /* AnyObject12ViewController.swift */,
+			);
+			path = AnyObject12;
+			sourceTree = "<group>";
+		};
+		02ECA30E265D7CB9006F3DC5 /* AnyObject13 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA30F265D7CBE006F3DC5 /* AnyObject13Protocols.swift */,
+				02ECA310265D7CBE006F3DC5 /* AnyObject13Presenter.swift */,
+				02ECA311265D7CBE006F3DC5 /* AnyObject13WireFrame.swift */,
+				02ECA312265D7CBE006F3DC5 /* AnyObject13Interactor.swift */,
+				02ECA313265D7CBE006F3DC5 /* AnyObject13ViewController.swift */,
+			);
+			path = AnyObject13;
+			sourceTree = "<group>";
+		};
+		02ECA31C265D7CC2006F3DC5 /* AnyObject14 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA31D265D7CC7006F3DC5 /* AnyObject14Protocols.swift */,
+				02ECA31E265D7CC7006F3DC5 /* AnyObject14Presenter.swift */,
+				02ECA31F265D7CC7006F3DC5 /* AnyObject14WireFrame.swift */,
+				02ECA320265D7CC7006F3DC5 /* AnyObject14Interactor.swift */,
+				02ECA321265D7CC7006F3DC5 /* AnyObject14ViewController.swift */,
+			);
+			path = AnyObject14;
+			sourceTree = "<group>";
+		};
+		02ECA32D265D7CCA006F3DC5 /* AnyObject15 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA32E265D7CCF006F3DC5 /* AnyObject15Protocols.swift */,
+				02ECA32F265D7CCF006F3DC5 /* AnyObject15Presenter.swift */,
+				02ECA330265D7CCF006F3DC5 /* AnyObject15WireFrame.swift */,
+				02ECA331265D7CCF006F3DC5 /* AnyObject15Interactor.swift */,
+				02ECA332265D7CCF006F3DC5 /* AnyObject15ViewController.swift */,
+			);
+			path = AnyObject15;
+			sourceTree = "<group>";
+		};
+		02ECA33E265D7CD4006F3DC5 /* AnyObject16 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA33F265D7CD9006F3DC5 /* AnyObject16Protocols.swift */,
+				02ECA340265D7CD9006F3DC5 /* AnyObject16Presenter.swift */,
+				02ECA341265D7CD9006F3DC5 /* AnyObject16WireFrame.swift */,
+				02ECA342265D7CD9006F3DC5 /* AnyObject16Interactor.swift */,
+				02ECA343265D7CD9006F3DC5 /* AnyObject16ViewController.swift */,
+			);
+			path = AnyObject16;
+			sourceTree = "<group>";
+		};
+		02ECA34F265D7CDC006F3DC5 /* AnyObject17 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA350265D7CE0006F3DC5 /* AnyObject17Protocols.swift */,
+				02ECA351265D7CE0006F3DC5 /* AnyObject17Presenter.swift */,
+				02ECA352265D7CE0006F3DC5 /* AnyObject17WireFrame.swift */,
+				02ECA353265D7CE0006F3DC5 /* AnyObject17Interactor.swift */,
+				02ECA354265D7CE0006F3DC5 /* AnyObject17ViewController.swift */,
+			);
+			path = AnyObject17;
+			sourceTree = "<group>";
+		};
+		02ECA360265D7CE3006F3DC5 /* AnyObject18 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA361265D7CE8006F3DC5 /* AnyObject18Protocols.swift */,
+				02ECA362265D7CE8006F3DC5 /* AnyObject18Presenter.swift */,
+				02ECA363265D7CE8006F3DC5 /* AnyObject18WireFrame.swift */,
+				02ECA364265D7CE8006F3DC5 /* AnyObject18Interactor.swift */,
+				02ECA365265D7CE8006F3DC5 /* AnyObject18ViewController.swift */,
+			);
+			path = AnyObject18;
+			sourceTree = "<group>";
+		};
+		02ECA371265D7CEB006F3DC5 /* AnyObject19 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA372265D7CF0006F3DC5 /* AnyObject19Protocols.swift */,
+				02ECA373265D7CF0006F3DC5 /* AnyObject19Presenter.swift */,
+				02ECA374265D7CF0006F3DC5 /* AnyObject19WireFrame.swift */,
+				02ECA375265D7CF0006F3DC5 /* AnyObject19Interactor.swift */,
+				02ECA376265D7CF0006F3DC5 /* AnyObject19ViewController.swift */,
+			);
+			path = AnyObject19;
+			sourceTree = "<group>";
+		};
+		02ECA382265D7CF3006F3DC5 /* AnyObject20 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA383265D7CF9006F3DC5 /* AnyObject20Protocols.swift */,
+				02ECA384265D7CF9006F3DC5 /* AnyObject20Presenter.swift */,
+				02ECA385265D7CF9006F3DC5 /* AnyObject20WireFrame.swift */,
+				02ECA386265D7CF9006F3DC5 /* AnyObject20Interactor.swift */,
+				02ECA387265D7CF9006F3DC5 /* AnyObject20ViewController.swift */,
+			);
+			path = AnyObject20;
+			sourceTree = "<group>";
+		};
+		02ECA393265D7CFD006F3DC5 /* AnyObject21 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA394265D7D01006F3DC5 /* AnyObject21Protocols.swift */,
+				02ECA395265D7D01006F3DC5 /* AnyObject21Presenter.swift */,
+				02ECA396265D7D01006F3DC5 /* AnyObject21WireFrame.swift */,
+				02ECA397265D7D01006F3DC5 /* AnyObject21Interactor.swift */,
+				02ECA398265D7D01006F3DC5 /* AnyObject21ViewController.swift */,
+			);
+			path = AnyObject21;
+			sourceTree = "<group>";
+		};
+		02ECA3A1265D7D05006F3DC5 /* AnyObject22 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA3A2265D7D0B006F3DC5 /* AnyObject22Protocols.swift */,
+				02ECA3A3265D7D0B006F3DC5 /* AnyObject22Presenter.swift */,
+				02ECA3A4265D7D0B006F3DC5 /* AnyObject22WireFrame.swift */,
+				02ECA3A5265D7D0B006F3DC5 /* AnyObject22Interactor.swift */,
+				02ECA3A6265D7D0B006F3DC5 /* AnyObject22ViewController.swift */,
+			);
+			path = AnyObject22;
+			sourceTree = "<group>";
+		};
+		02ECA3B2265D7D0F006F3DC5 /* AnyObject23 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA3B3265D7D14006F3DC5 /* AnyObject23Protocols.swift */,
+				02ECA3B4265D7D14006F3DC5 /* AnyObject23Presenter.swift */,
+				02ECA3B5265D7D14006F3DC5 /* AnyObject23WireFrame.swift */,
+				02ECA3B6265D7D14006F3DC5 /* AnyObject23Interactor.swift */,
+				02ECA3B7265D7D14006F3DC5 /* AnyObject23ViewController.swift */,
+			);
+			path = AnyObject23;
+			sourceTree = "<group>";
+		};
+		02ECA3C3265D7D17006F3DC5 /* AnyObject24 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA3C4265D7D1C006F3DC5 /* AnyObject24Protocols.swift */,
+				02ECA3C5265D7D1C006F3DC5 /* AnyObject24Presenter.swift */,
+				02ECA3C6265D7D1C006F3DC5 /* AnyObject24WireFrame.swift */,
+				02ECA3C7265D7D1C006F3DC5 /* AnyObject24Interactor.swift */,
+				02ECA3C8265D7D1C006F3DC5 /* AnyObject24ViewController.swift */,
+			);
+			path = AnyObject24;
+			sourceTree = "<group>";
+		};
+		02ECA3D4265D7D20006F3DC5 /* AnyObject25 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA3D5265D7D24006F3DC5 /* AnyObject25Protocols.swift */,
+				02ECA3D6265D7D24006F3DC5 /* AnyObject25Presenter.swift */,
+				02ECA3D7265D7D24006F3DC5 /* AnyObject25WireFrame.swift */,
+				02ECA3D8265D7D24006F3DC5 /* AnyObject25Interactor.swift */,
+				02ECA3D9265D7D24006F3DC5 /* AnyObject25ViewController.swift */,
+			);
+			path = AnyObject25;
+			sourceTree = "<group>";
+		};
+		02ECA3E5265D7D28006F3DC5 /* AnyObject26 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA3E6265D7D2E006F3DC5 /* AnyObject26Protocols.swift */,
+				02ECA3E7265D7D2E006F3DC5 /* AnyObject26Presenter.swift */,
+				02ECA3E8265D7D2E006F3DC5 /* AnyObject26WireFrame.swift */,
+				02ECA3E9265D7D2E006F3DC5 /* AnyObject26Interactor.swift */,
+				02ECA3EA265D7D2E006F3DC5 /* AnyObject26ViewController.swift */,
+			);
+			path = AnyObject26;
+			sourceTree = "<group>";
+		};
+		02ECA3F6265D7D31006F3DC5 /* AnyObject27 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA3F7265D7D37006F3DC5 /* AnyObject27Protocols.swift */,
+				02ECA3F8265D7D37006F3DC5 /* AnyObject27Presenter.swift */,
+				02ECA3F9265D7D37006F3DC5 /* AnyObject27WireFrame.swift */,
+				02ECA3FA265D7D37006F3DC5 /* AnyObject27Interactor.swift */,
+				02ECA3FB265D7D37006F3DC5 /* AnyObject27ViewController.swift */,
+			);
+			path = AnyObject27;
+			sourceTree = "<group>";
+		};
+		02ECA407265D7D3A006F3DC5 /* AnyObject28 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA408265D7D3F006F3DC5 /* AnyObject28Protocols.swift */,
+				02ECA409265D7D3F006F3DC5 /* AnyObject28Presenter.swift */,
+				02ECA40A265D7D3F006F3DC5 /* AnyObject28WireFrame.swift */,
+				02ECA40B265D7D3F006F3DC5 /* AnyObject28Interactor.swift */,
+				02ECA40C265D7D3F006F3DC5 /* AnyObject28ViewController.swift */,
+			);
+			path = AnyObject28;
+			sourceTree = "<group>";
+		};
+		02ECA418265D7D43006F3DC5 /* AnyObject29 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA419265D7D48006F3DC5 /* AnyObject29Protocols.swift */,
+				02ECA41A265D7D48006F3DC5 /* AnyObject29Presenter.swift */,
+				02ECA41B265D7D48006F3DC5 /* AnyObject29WireFrame.swift */,
+				02ECA41C265D7D48006F3DC5 /* AnyObject29Interactor.swift */,
+				02ECA41D265D7D48006F3DC5 /* AnyObject29ViewController.swift */,
+			);
+			path = AnyObject29;
+			sourceTree = "<group>";
+		};
+		02ECA429265D7D4B006F3DC5 /* AnyObject30 */ = {
+			isa = PBXGroup;
+			children = (
+				02ECA42A265D7D51006F3DC5 /* AnyObject30Protocols.swift */,
+				02ECA42B265D7D51006F3DC5 /* AnyObject30Presenter.swift */,
+				02ECA42C265D7D51006F3DC5 /* AnyObject30WireFrame.swift */,
+				02ECA42D265D7D51006F3DC5 /* AnyObject30Interactor.swift */,
+				02ECA42E265D7D51006F3DC5 /* AnyObject30ViewController.swift */,
+			);
+			path = AnyObject30;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02ECA20B265D7BF2006F3DC5 /* AnyObject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02ECA236265D7BF3006F3DC5 /* Build configuration list for PBXNativeTarget "AnyObject" */;
+			buildPhases = (
+				02ECA208265D7BF2006F3DC5 /* Sources */,
+				02ECA209265D7BF2006F3DC5 /* Frameworks */,
+				02ECA20A265D7BF2006F3DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnyObject;
+			productName = AnyObject;
+			productReference = 02ECA20C265D7BF2006F3DC5 /* AnyObject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02ECA221265D7BF3006F3DC5 /* AnyObjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02ECA239265D7BF3006F3DC5 /* Build configuration list for PBXNativeTarget "AnyObjectTests" */;
+			buildPhases = (
+				02ECA21E265D7BF3006F3DC5 /* Sources */,
+				02ECA21F265D7BF3006F3DC5 /* Frameworks */,
+				02ECA220265D7BF3006F3DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02ECA224265D7BF3006F3DC5 /* PBXTargetDependency */,
+			);
+			name = AnyObjectTests;
+			productName = AnyObjectTests;
+			productReference = 02ECA222265D7BF3006F3DC5 /* AnyObjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02ECA22C265D7BF3006F3DC5 /* AnyObjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02ECA23C265D7BF3006F3DC5 /* Build configuration list for PBXNativeTarget "AnyObjectUITests" */;
+			buildPhases = (
+				02ECA229265D7BF3006F3DC5 /* Sources */,
+				02ECA22A265D7BF3006F3DC5 /* Frameworks */,
+				02ECA22B265D7BF3006F3DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02ECA22F265D7BF3006F3DC5 /* PBXTargetDependency */,
+			);
+			name = AnyObjectUITests;
+			productName = AnyObjectUITests;
+			productReference = 02ECA22D265D7BF3006F3DC5 /* AnyObjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02ECA204265D7BF2006F3DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					02ECA20B265D7BF2006F3DC5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					02ECA221265D7BF3006F3DC5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 02ECA20B265D7BF2006F3DC5;
+					};
+					02ECA22C265D7BF3006F3DC5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 02ECA20B265D7BF2006F3DC5;
+					};
+				};
+			};
+			buildConfigurationList = 02ECA207265D7BF2006F3DC5 /* Build configuration list for PBXProject "AnyObject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02ECA203265D7BF2006F3DC5;
+			productRefGroup = 02ECA20D265D7BF2006F3DC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02ECA20B265D7BF2006F3DC5 /* AnyObject */,
+				02ECA221265D7BF3006F3DC5 /* AnyObjectTests */,
+				02ECA22C265D7BF3006F3DC5 /* AnyObjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02ECA20A265D7BF2006F3DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02ECA21C265D7BF3006F3DC5 /* LaunchScreen.storyboard in Resources */,
+				02ECA219265D7BF3006F3DC5 /* Assets.xcassets in Resources */,
+				02ECA217265D7BF2006F3DC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02ECA220265D7BF3006F3DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02ECA22B265D7BF3006F3DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02ECA208265D7BF2006F3DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02ECA359265D7CE0006F3DC5 /* AnyObject17ViewController.swift in Sources */,
+				02ECA2B1265D7C44006F3DC5 /* AnyObject7Interactor.swift in Sources */,
+				02ECA3A8265D7D0B006F3DC5 /* AnyObject22Presenter.swift in Sources */,
+				02ECA2B0265D7C44006F3DC5 /* AnyObject7WireFrame.swift in Sources */,
+				02ECA36A265D7CE8006F3DC5 /* AnyObject18ViewController.swift in Sources */,
+				02ECA24C265D7C0A006F3DC5 /* AnyObject1ViewController.swift in Sources */,
+				02ECA3EB265D7D2E006F3DC5 /* AnyObject26Protocols.swift in Sources */,
+				02ECA25C265D7C15006F3DC5 /* AnyObject2Interactor.swift in Sources */,
+				02ECA26D265D7C20006F3DC5 /* AnyObject3Interactor.swift in Sources */,
+				02ECA307265D7CB5006F3DC5 /* AnyObject12ViewController.swift in Sources */,
+				02ECA37A265D7CF0006F3DC5 /* AnyObject19Interactor.swift in Sources */,
+				02ECA2E4265D7C5E006F3DC5 /* AnyObject10Interactor.swift in Sources */,
+				02ECA2E2265D7C5E006F3DC5 /* AnyObject10Presenter.swift in Sources */,
+				02ECA2F2265D7CAD006F3DC5 /* AnyObject11Protocols.swift in Sources */,
+				02ECA326265D7CC7006F3DC5 /* AnyObject14ViewController.swift in Sources */,
+				02ECA422265D7D48006F3DC5 /* AnyObject29ViewController.swift in Sources */,
+				02ECA40D265D7D3F006F3DC5 /* AnyObject28Protocols.swift in Sources */,
+				02ECA357265D7CE0006F3DC5 /* AnyObject17WireFrame.swift in Sources */,
+				02ECA366265D7CE8006F3DC5 /* AnyObject18Protocols.swift in Sources */,
+				02ECA322265D7CC7006F3DC5 /* AnyObject14Protocols.swift in Sources */,
+				02ECA3EC265D7D2E006F3DC5 /* AnyObject26Presenter.swift in Sources */,
+				02ECA3DC265D7D24006F3DC5 /* AnyObject25WireFrame.swift in Sources */,
+				02ECA3CD265D7D1C006F3DC5 /* AnyObject24ViewController.swift in Sources */,
+				02ECA39A265D7D01006F3DC5 /* AnyObject21Presenter.swift in Sources */,
+				02ECA3CA265D7D1C006F3DC5 /* AnyObject24Presenter.swift in Sources */,
+				02ECA2F6265D7CAD006F3DC5 /* AnyObject11ViewController.swift in Sources */,
+				02ECA3CC265D7D1C006F3DC5 /* AnyObject24Interactor.swift in Sources */,
+				02ECA400265D7D37006F3DC5 /* AnyObject27ViewController.swift in Sources */,
+				02ECA25A265D7C15006F3DC5 /* AnyObject2Presenter.swift in Sources */,
+				02ECA25D265D7C15006F3DC5 /* AnyObject2ViewController.swift in Sources */,
+				02ECA2A0265D7C3C006F3DC5 /* AnyObject6Interactor.swift in Sources */,
+				02ECA2B2265D7C44006F3DC5 /* AnyObject7ViewController.swift in Sources */,
+				02ECA24A265D7C0A006F3DC5 /* AnyObject1WireFrame.swift in Sources */,
+				02ECA38B265D7CF9006F3DC5 /* AnyObject20Interactor.swift in Sources */,
+				02ECA29F265D7C3C006F3DC5 /* AnyObject6WireFrame.swift in Sources */,
+				02ECA358265D7CE0006F3DC5 /* AnyObject17Interactor.swift in Sources */,
+				02ECA3DE265D7D24006F3DC5 /* AnyObject25ViewController.swift in Sources */,
+				02ECA3FD265D7D37006F3DC5 /* AnyObject27Presenter.swift in Sources */,
+				02ECA3C9265D7D1C006F3DC5 /* AnyObject24Protocols.swift in Sources */,
+				02ECA27F265D7C28006F3DC5 /* AnyObject4ViewController.swift in Sources */,
+				02ECA39D265D7D01006F3DC5 /* AnyObject21ViewController.swift in Sources */,
+				02ECA3ED265D7D2E006F3DC5 /* AnyObject26WireFrame.swift in Sources */,
+				02ECA367265D7CE8006F3DC5 /* AnyObject18Presenter.swift in Sources */,
+				02ECA389265D7CF9006F3DC5 /* AnyObject20Presenter.swift in Sources */,
+				02ECA317265D7CBE006F3DC5 /* AnyObject13Interactor.swift in Sources */,
+				02ECA335265D7CCF006F3DC5 /* AnyObject15WireFrame.swift in Sources */,
+				02ECA3BC265D7D14006F3DC5 /* AnyObject23ViewController.swift in Sources */,
+				02ECA259265D7C15006F3DC5 /* AnyObject2Protocols.swift in Sources */,
+				02ECA356265D7CE0006F3DC5 /* AnyObject17Presenter.swift in Sources */,
+				02ECA337265D7CCF006F3DC5 /* AnyObject15ViewController.swift in Sources */,
+				02ECA348265D7CD9006F3DC5 /* AnyObject16ViewController.swift in Sources */,
+				02ECA333265D7CCF006F3DC5 /* AnyObject15Protocols.swift in Sources */,
+				02ECA38C265D7CF9006F3DC5 /* AnyObject20ViewController.swift in Sources */,
+				02ECA346265D7CD9006F3DC5 /* AnyObject16WireFrame.swift in Sources */,
+				02ECA28F265D7C33006F3DC5 /* AnyObject5Interactor.swift in Sources */,
+				02ECA369265D7CE8006F3DC5 /* AnyObject18Interactor.swift in Sources */,
+				02ECA27C265D7C28006F3DC5 /* AnyObject4Presenter.swift in Sources */,
+				02ECA2E1265D7C5E006F3DC5 /* AnyObject10Protocols.swift in Sources */,
+				02ECA3DD265D7D24006F3DC5 /* AnyObject25Interactor.swift in Sources */,
+				02ECA214265D7BF2006F3DC5 /* ViewController.swift in Sources */,
+				02ECA2D4265D7C55006F3DC5 /* AnyObject9ViewController.swift in Sources */,
+				02ECA27D265D7C28006F3DC5 /* AnyObject4WireFrame.swift in Sources */,
+				02ECA39C265D7D01006F3DC5 /* AnyObject21Interactor.swift in Sources */,
+				02ECA3EF265D7D2E006F3DC5 /* AnyObject26ViewController.swift in Sources */,
+				02ECA399265D7D01006F3DC5 /* AnyObject21Protocols.swift in Sources */,
+				02ECA3BB265D7D14006F3DC5 /* AnyObject23Interactor.swift in Sources */,
+				02ECA2D0265D7C55006F3DC5 /* AnyObject9Protocols.swift in Sources */,
+				02ECA3A7265D7D0B006F3DC5 /* AnyObject22Protocols.swift in Sources */,
+				02ECA2C3265D7C4C006F3DC5 /* AnyObject8ViewController.swift in Sources */,
+				02ECA410265D7D3F006F3DC5 /* AnyObject28Interactor.swift in Sources */,
+				02ECA249265D7C0A006F3DC5 /* AnyObject1Presenter.swift in Sources */,
+				02ECA324265D7CC7006F3DC5 /* AnyObject14WireFrame.swift in Sources */,
+				02ECA28E265D7C33006F3DC5 /* AnyObject5WireFrame.swift in Sources */,
+				02ECA2D3265D7C55006F3DC5 /* AnyObject9Interactor.swift in Sources */,
+				02ECA323265D7CC7006F3DC5 /* AnyObject14Presenter.swift in Sources */,
+				02ECA432265D7D51006F3DC5 /* AnyObject30Interactor.swift in Sources */,
+				02ECA314265D7CBE006F3DC5 /* AnyObject13Protocols.swift in Sources */,
+				02ECA420265D7D48006F3DC5 /* AnyObject29WireFrame.swift in Sources */,
+				02ECA303265D7CB5006F3DC5 /* AnyObject12Protocols.swift in Sources */,
+				02ECA3FC265D7D37006F3DC5 /* AnyObject27Protocols.swift in Sources */,
+				02ECA3BA265D7D14006F3DC5 /* AnyObject23WireFrame.swift in Sources */,
+				02ECA334265D7CCF006F3DC5 /* AnyObject15Presenter.swift in Sources */,
+				02ECA26C265D7C20006F3DC5 /* AnyObject3WireFrame.swift in Sources */,
+				02ECA2E5265D7C5E006F3DC5 /* AnyObject10ViewController.swift in Sources */,
+				02ECA325265D7CC7006F3DC5 /* AnyObject14Interactor.swift in Sources */,
+				02ECA368265D7CE8006F3DC5 /* AnyObject18WireFrame.swift in Sources */,
+				02ECA2AF265D7C44006F3DC5 /* AnyObject7Presenter.swift in Sources */,
+				02ECA2F3265D7CAD006F3DC5 /* AnyObject11Presenter.swift in Sources */,
+				02ECA344265D7CD9006F3DC5 /* AnyObject16Protocols.swift in Sources */,
+				02ECA347265D7CD9006F3DC5 /* AnyObject16Interactor.swift in Sources */,
+				02ECA355265D7CE0006F3DC5 /* AnyObject17Protocols.swift in Sources */,
+				02ECA2AE265D7C44006F3DC5 /* AnyObject7Protocols.swift in Sources */,
+				02ECA248265D7C0A006F3DC5 /* AnyObject1Protocols.swift in Sources */,
+				02ECA304265D7CB5006F3DC5 /* AnyObject12Presenter.swift in Sources */,
+				02ECA26A265D7C20006F3DC5 /* AnyObject3Protocols.swift in Sources */,
+				02ECA37B265D7CF0006F3DC5 /* AnyObject19ViewController.swift in Sources */,
+				02ECA2BF265D7C4C006F3DC5 /* AnyObject8Protocols.swift in Sources */,
+				02ECA3EE265D7D2E006F3DC5 /* AnyObject26Interactor.swift in Sources */,
+				02ECA379265D7CF0006F3DC5 /* AnyObject19WireFrame.swift in Sources */,
+				02ECA210265D7BF2006F3DC5 /* AppDelegate.swift in Sources */,
+				02ECA27E265D7C28006F3DC5 /* AnyObject4Interactor.swift in Sources */,
+				02ECA336265D7CCF006F3DC5 /* AnyObject15Interactor.swift in Sources */,
+				02ECA2C0265D7C4C006F3DC5 /* AnyObject8Presenter.swift in Sources */,
+				02ECA433265D7D51006F3DC5 /* AnyObject30ViewController.swift in Sources */,
+				02ECA41E265D7D48006F3DC5 /* AnyObject29Protocols.swift in Sources */,
+				02ECA318265D7CBE006F3DC5 /* AnyObject13ViewController.swift in Sources */,
+				02ECA28D265D7C33006F3DC5 /* AnyObject5Presenter.swift in Sources */,
+				02ECA29D265D7C3C006F3DC5 /* AnyObject6Protocols.swift in Sources */,
+				02ECA377265D7CF0006F3DC5 /* AnyObject19Protocols.swift in Sources */,
+				02ECA2F4265D7CAD006F3DC5 /* AnyObject11WireFrame.swift in Sources */,
+				02ECA3AB265D7D0B006F3DC5 /* AnyObject22ViewController.swift in Sources */,
+				02ECA3B8265D7D14006F3DC5 /* AnyObject23Protocols.swift in Sources */,
+				02ECA378265D7CF0006F3DC5 /* AnyObject19Presenter.swift in Sources */,
+				02ECA3FF265D7D37006F3DC5 /* AnyObject27Interactor.swift in Sources */,
+				02ECA25B265D7C15006F3DC5 /* AnyObject2WireFrame.swift in Sources */,
+				02ECA42F265D7D51006F3DC5 /* AnyObject30Protocols.swift in Sources */,
+				02ECA3DA265D7D24006F3DC5 /* AnyObject25Protocols.swift in Sources */,
+				02ECA305265D7CB5006F3DC5 /* AnyObject12WireFrame.swift in Sources */,
+				02ECA38A265D7CF9006F3DC5 /* AnyObject20WireFrame.swift in Sources */,
+				02ECA2C1265D7C4C006F3DC5 /* AnyObject8WireFrame.swift in Sources */,
+				02ECA26B265D7C20006F3DC5 /* AnyObject3Presenter.swift in Sources */,
+				02ECA388265D7CF9006F3DC5 /* AnyObject20Protocols.swift in Sources */,
+				02ECA24B265D7C0A006F3DC5 /* AnyObject1Interactor.swift in Sources */,
+				02ECA2D2265D7C55006F3DC5 /* AnyObject9WireFrame.swift in Sources */,
+				02ECA26E265D7C20006F3DC5 /* AnyObject3ViewController.swift in Sources */,
+				02ECA421265D7D48006F3DC5 /* AnyObject29Interactor.swift in Sources */,
+				02ECA41F265D7D48006F3DC5 /* AnyObject29Presenter.swift in Sources */,
+				02ECA3CB265D7D1C006F3DC5 /* AnyObject24WireFrame.swift in Sources */,
+				02ECA3B9265D7D14006F3DC5 /* AnyObject23Presenter.swift in Sources */,
+				02ECA2E3265D7C5E006F3DC5 /* AnyObject10WireFrame.swift in Sources */,
+				02ECA3DB265D7D24006F3DC5 /* AnyObject25Presenter.swift in Sources */,
+				02ECA345265D7CD9006F3DC5 /* AnyObject16Presenter.swift in Sources */,
+				02ECA39B265D7D01006F3DC5 /* AnyObject21WireFrame.swift in Sources */,
+				02ECA290265D7C33006F3DC5 /* AnyObject5ViewController.swift in Sources */,
+				02ECA2A1265D7C3C006F3DC5 /* AnyObject6ViewController.swift in Sources */,
+				02ECA3AA265D7D0B006F3DC5 /* AnyObject22Interactor.swift in Sources */,
+				02ECA28C265D7C33006F3DC5 /* AnyObject5Protocols.swift in Sources */,
+				02ECA29E265D7C3C006F3DC5 /* AnyObject6Presenter.swift in Sources */,
+				02ECA40F265D7D3F006F3DC5 /* AnyObject28WireFrame.swift in Sources */,
+				02ECA411265D7D3F006F3DC5 /* AnyObject28ViewController.swift in Sources */,
+				02ECA2F5265D7CAD006F3DC5 /* AnyObject11Interactor.swift in Sources */,
+				02ECA3FE265D7D37006F3DC5 /* AnyObject27WireFrame.swift in Sources */,
+				02ECA2C2265D7C4C006F3DC5 /* AnyObject8Interactor.swift in Sources */,
+				02ECA2D1265D7C55006F3DC5 /* AnyObject9Presenter.swift in Sources */,
+				02ECA431265D7D51006F3DC5 /* AnyObject30WireFrame.swift in Sources */,
+				02ECA315265D7CBE006F3DC5 /* AnyObject13Presenter.swift in Sources */,
+				02ECA40E265D7D3F006F3DC5 /* AnyObject28Presenter.swift in Sources */,
+				02ECA212265D7BF2006F3DC5 /* SceneDelegate.swift in Sources */,
+				02ECA27B265D7C28006F3DC5 /* AnyObject4Protocols.swift in Sources */,
+				02ECA3A9265D7D0B006F3DC5 /* AnyObject22WireFrame.swift in Sources */,
+				02ECA430265D7D51006F3DC5 /* AnyObject30Presenter.swift in Sources */,
+				02ECA316265D7CBE006F3DC5 /* AnyObject13WireFrame.swift in Sources */,
+				02ECA306265D7CB5006F3DC5 /* AnyObject12Interactor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02ECA21E265D7BF3006F3DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02ECA227265D7BF3006F3DC5 /* AnyObjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02ECA229265D7BF3006F3DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02ECA232265D7BF3006F3DC5 /* AnyObjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02ECA224265D7BF3006F3DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02ECA20B265D7BF2006F3DC5 /* AnyObject */;
+			targetProxy = 02ECA223265D7BF3006F3DC5 /* PBXContainerItemProxy */;
+		};
+		02ECA22F265D7BF3006F3DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02ECA20B265D7BF2006F3DC5 /* AnyObject */;
+			targetProxy = 02ECA22E265D7BF3006F3DC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02ECA215265D7BF2006F3DC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02ECA216265D7BF2006F3DC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02ECA21A265D7BF3006F3DC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02ECA21B265D7BF3006F3DC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02ECA234265D7BF3006F3DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02ECA235265D7BF3006F3DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02ECA237265D7BF3006F3DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQ4ZHX9Y56;
+				INFOPLIST_FILE = AnyObject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YZ.AnyObject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02ECA238265D7BF3006F3DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQ4ZHX9Y56;
+				INFOPLIST_FILE = AnyObject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YZ.AnyObject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02ECA23A265D7BF3006F3DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQ4ZHX9Y56;
+				INFOPLIST_FILE = AnyObjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YZ.AnyObjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnyObject.app/AnyObject";
+			};
+			name = Debug;
+		};
+		02ECA23B265D7BF3006F3DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQ4ZHX9Y56;
+				INFOPLIST_FILE = AnyObjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YZ.AnyObjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnyObject.app/AnyObject";
+			};
+			name = Release;
+		};
+		02ECA23D265D7BF3006F3DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQ4ZHX9Y56;
+				INFOPLIST_FILE = AnyObjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YZ.AnyObjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnyObject;
+			};
+			name = Debug;
+		};
+		02ECA23E265D7BF3006F3DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQ4ZHX9Y56;
+				INFOPLIST_FILE = AnyObjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YZ.AnyObjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnyObject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02ECA207265D7BF2006F3DC5 /* Build configuration list for PBXProject "AnyObject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02ECA234265D7BF3006F3DC5 /* Debug */,
+				02ECA235265D7BF3006F3DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02ECA236265D7BF3006F3DC5 /* Build configuration list for PBXNativeTarget "AnyObject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02ECA237265D7BF3006F3DC5 /* Debug */,
+				02ECA238265D7BF3006F3DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02ECA239265D7BF3006F3DC5 /* Build configuration list for PBXNativeTarget "AnyObjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02ECA23A265D7BF3006F3DC5 /* Debug */,
+				02ECA23B265D7BF3006F3DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02ECA23C265D7BF3006F3DC5 /* Build configuration list for PBXNativeTarget "AnyObjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02ECA23D265D7BF3006F3DC5 /* Debug */,
+				02ECA23E265D7BF3006F3DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02ECA204265D7BF2006F3DC5 /* Project object */;
+}
